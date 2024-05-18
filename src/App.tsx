@@ -13,7 +13,7 @@ function App() {
     const populateVoices = () => {
       const allVoices = window.speechSynthesis.getVoices();
       setVoices(allVoices);
-      setSelectedVoice(allVoices[0]); // Set a default selected voice
+      setSelectedVoice(allVoices[6]); // Set a default selected voice
     }
     populateVoices();
     window.speechSynthesis.onvoiceschanged = populateVoices;

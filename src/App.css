@@ -1,4 +1,4 @@
-input,
+/* input,
 select {
   height: 36px;
   border-radius: 4px;
@@ -34,4 +34,88 @@ label {
 .inputButton {
   display: flex;
   justify-content: center;
+} */
+
+
+
+
+/* General styles for inputs and select dropdowns */
+input,
+select {
+  height: 36px;
+  border-radius: 8px;
+  padding: 0 12px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+input:focus,
+select:focus {
+  border-color: #646cff;
+  outline: none;
+}
+
+/* Button styles */
+.speakButton {
+  background-color: #646cff;
+  color: white;
+  padding: 10px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.speakButton:hover {
+  background-color: #535bf2;
+}
+
+/* Container styles */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Label styles */
+label {
+  font-weight: 600;
+  margin-right: 12px;
+  color: #ffffff;
+}
+
+/* Title and input section styles */
+.title,
+.inputOption,
+.inputText {
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Input button section styles */
+.inputButton {
+  display: flex;
+  justify-content: center;
+}
+
+/* Voice select styles */
+.voiceSelect {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+}
+
+/* Voice option styles */
+.voiceOption {
+  padding: 10px;
 }
